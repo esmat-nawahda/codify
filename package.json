@@ -1,6 +1,6 @@
 {
   "name": "codify-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Codify - a TypeScript code analyzer tool that helps developers improve their code's design, reduce complexity, avoid duplication, and identify refactor opportunities. A must-have companion for coding!",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -50,6 +50,7 @@
     "lib": "lib"
   },
   "dependencies": {
+    "chokidar": "^3.5.3",
     "esprima": "^4.0.1"
   }
 }
