@@ -17,11 +17,11 @@ function watchAndAnalyze(directory: string, extension: string) {
             const duplicationIssues = analyzeDuplication(code);
             const refactoringIssues = analyzeRefactoring(code);
 
-            console.warn(`Comments Issues in ${path}:`, commentsIssues);
-            console.warn(`Design Issues in ${path}:`, designIssues);
-            console.warn(`Complexity Issues in ${path}:`, complexityIssues);
-            console.warn(`Duplication Issues in ${path}:`, duplicationIssues);
-            console.warn(`Refactoring Issues in ${path}:`, refactoringIssues);
+            console.warn(`Comments in ${path}:`, commentsIssues);
+            console.warn(`Design in ${path}:`, designIssues);
+            console.warn(`Complexity in ${path}:`, complexityIssues);
+            console.warn(`Duplication in ${path}:`, duplicationIssues);
+            console.warn(`Refactoring in ${path}:`, refactoringIssues);
         }
     });
 }
