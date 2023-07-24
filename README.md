@@ -13,14 +13,14 @@ Refactor Analyzer: Suggests parts of your code that may need refactoring.
 Use the package manager npm to install codify.
 
 ```bash
-npm install codify
+npm install codify-ts
 ```
 
 ## Usage 📖
 Here's how you use Codify to analyze some TypeScript code:
 
 ```javascript
-import { analyzeDesign, analyzeComplexity, analyzeDuplication, analyzeRefactoring } from 'codify';
+import { analyzeDesign, analyzeComplexity, analyzeDuplication, analyzeRefactoring } from 'codify-ts';
 
 const code = `
   function foo(bar) {
@@ -42,7 +42,7 @@ console.log(analyzeRefactoring(code));
 
 Usage should be by implementing the following function in your root file:
 ```javascript
-import { watchAndAnalyze } from 'codify';
+import { watchAndAnalyze } from 'codify-ts';
 
 watchAndAnalyze('./src', '.js');
 ```
