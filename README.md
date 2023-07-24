@@ -40,6 +40,13 @@ console.log(analyzeDuplication(code));
 console.log(analyzeRefactoring(code));
 ```
 
+Usage should be by implementing the following function in your root file:
+```javascript
+import { watchAndAnalyze } from 'codify';
+
+watchAndAnalyze('./src', '.js');
+```
+
 ## Files structure
 ```
 codify/
