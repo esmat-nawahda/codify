@@ -1,7 +1,7 @@
 {
   "name": "codify",
   "version": "1.0.1",
-  "description": "A novel approach to manage complex conditional logic in JavaScript using an intuitive tree structure.",
+  "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "jest": {

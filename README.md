@@ -41,6 +41,7 @@ console.log(analyzeRefactoring(code));
 ```
 
 ## Files structure
+```
 codify/
 |-- src/
 |   |-- index.ts           # Entry point of the library
@@ -61,7 +62,7 @@ codify/
 |-- tsconfig.json          # TypeScript configuration
 |-- package.json           # Project metadata and dependencies
 |-- README.md              # Project documentation
-
+```
 
 ## Keep in Mind 🤔
 Codify is not an oracle - it's a tool. It won't write perfect code for you, but it will help you spot potential issues in your code. Remember, the goal is not to achieve zero issues, but to write better, more maintainable code.
